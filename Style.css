@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "simps";
+    src: url(fonts/simps.otf);
+}
+
+@font-face {
+    font-family: "simps2";
+    src: url(fonts/swz721kr.ttf);
+}
+
+@font-face {
+    font-family: "simps3";
+    src: url(fonts/gothic.ttf);
+}
+
+#id_title{
+    font-family: "simps";
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFDF01;
+    text-shadow: 4px 0 0 #000, 0 -1px 0 #000, 0 4px 0 #000, -1px 0 0 #000;
+}
+
+body{
+    background-image: url(pics/sky.webp);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: "simps2";
+}
+
+hr{
+    border: thick solid black;
+}
+
+table{
+    border: thick solid black;
+    width: 100%;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 10px 20px;
+}
+
+th{
+    font-weight: bold;
+    font-size: 36px;
+    font-family: "simps2";
+}
+
+td{
+    border: thin solid #FFDF01;
+    background-color: #FFDF01;
+    border-radius: 20px;
+    font-size: 36px;
+    font-family: "simps3";
+}
+
+h5{
+    text-align: center;
+    font-weight: "simps3";
+}
