@@ -35,11 +35,14 @@ hr{
 }
 
 table{
-    border: thick solid black;
+    border: 39px solid transparent;
     width: 100%;
     text-align: center;
     border-collapse: separate;
     border-spacing: 10px 20px;
+    border-image: url(pics/border.png) 30 round;
+    background-color: rgba(57, 77, 132, 0.4);
+    border-radius: 50px;
 }
 
 th{
